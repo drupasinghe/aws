@@ -1,0 +1,11 @@
+variable "VPC_CIDR_BLOCK" {         
+    type        = string
+    default     = "10.50.0.0/16"
+
+}
+
+variable "subnet_test_public_CIDR" {
+    type        = string
+    default     = "10.50.10.0/24"
+}
+
