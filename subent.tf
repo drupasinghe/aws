@@ -6,3 +6,13 @@ resource "aws_subnet" "A" {
     }
 
 }
+
+resource "aws_subnet" "B" {
+  
+    vpc_id = aws_vpc.vpc_a.id
+    cidr_block  = "10.20.110.0/24" 
+     tags = {
+      "Name" = "private subnet"
+    }
+}
+

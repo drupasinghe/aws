@@ -21,7 +21,7 @@ variable "subnet_console_public_CIDR" {
 }
 
 
-variable "subnet_console_private_CIDR" {
+variable "subnet_B_private_CIDR" {
   
     type        = string
     default     = "10.50.10.0/24" 
