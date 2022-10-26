@@ -4,7 +4,7 @@ variable "VPC_CIDR_BLOCK" {
 
 }
 
-variable "subnet_test_public_CIDR" {
+variable "subnet_test_public_CIDR" {   
     type        = string
     default     = "10.50.10.0/24"
 }
@@ -19,4 +19,12 @@ variable "subnet_console_public_CIDR" {
     type        = string
     default     = "10.20.10.0/24"
 }
+
+
+variable "subnet_console_private_CIDR" {
+  
+    type        = string
+    default     = "10.50.10.0/24" 
+}
+
 
